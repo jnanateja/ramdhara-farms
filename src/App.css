@@ -106,6 +106,37 @@ footer {
   color: #5f6b5b;
 }
 
+/* Use orange as an interaction and card accent, while keeping the base palette green. */
+.button:hover {
+  background: #b95820;
+}
+
+.site-header nav a:hover,
+.site-header .menu-toggle:hover,
+nav a:hover,
+.text-link:hover {
+  color: #b95820;
+}
+
+.nav-cta:hover {
+  border-color: #b95820;
+}
+
+.offering {
+  transition: border-color .2s, transform .2s, box-shadow .2s;
+}
+
+.offering:hover {
+  border-color: #c8753a;
+  box-shadow: 0 18px 34px rgba(185, 88, 32, 0.12);
+  transform: translateY(-3px);
+}
+
+.offering:hover .card-top svg,
+.offering:hover .text-link {
+  color: #b95820;
+}
+
 @media(max-width:900px) {
   .hero-section {
     min-height: calc(100vh - 110px);
