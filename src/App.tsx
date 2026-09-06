@@ -41,13 +41,6 @@ function App() {
             <a className="button" href="#offerings">Explore our farm <span>↗</span></a>
             <div className="hero-note"><NatureIcon /><span>Indian roots.<br /><strong>Heartfelt care.</strong></span></div>
           </div>
-          <div className="hero-visual">
-            <img className="landscape" src="/images/farm-landscape.jpg" alt="Sunlight falling across lush green countryside and rolling fields" fetchPriority="high" />
-            <div className="image-shade" />
-            <div className="sun-badge"><NatureIcon kind="sun" /><span>GROWN WITH LOVE<br />ROOTED IN INDIA</span></div>
-            <div className="photo-caption"><span>A slower pace. A richer life.</span><p>Nature does the extraordinary.<br />We care for the everyday.</p></div>
-            <span className="photo-index">01 / THE LAND</span>
-          </div>
         </section>
         <div className="values-strip"><span><NatureIcon /> Rooted in nature</span><i>✳</i><span><NatureIcon kind="sun" /> Raised with care</span><i>✳</i><span><NatureIcon kind="egg" /> Simple, honest goodness</span></div>
         <section id="story" className="story section-wrap">
