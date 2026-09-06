@@ -31,7 +31,8 @@
   isolation: isolate;
   overflow: hidden;
   background-image:
-    linear-gradient(90deg, rgba(250, 248, 241, 0.78) 0%, rgba(250, 248, 241, 0.56) 50%, rgba(250, 248, 241, 0.08) 72%),
+    linear-gradient(180deg, rgba(250, 248, 241, 0) 68%, #faf8f1 100%),
+    linear-gradient(90deg, rgba(250, 248, 241, 0.8) 0%, rgba(250, 248, 241, 0.58) 48%, rgba(250, 248, 241, 0.16) 76%, rgba(250, 248, 241, 0.26) 100%),
     url('/images/mango-orchard-chicken-yard.png');
   background-size: cover;
   background-position: center;
@@ -210,7 +211,7 @@ nav a:hover,
     min-height: calc(100vh - 110px);
     padding-top: 70px;
     background-image:
-      linear-gradient(180deg, rgba(250, 248, 241, 0.78) 0%, rgba(250, 248, 241, 0.54) 64%, rgba(250, 248, 241, 0.1) 100%),
+      linear-gradient(180deg, rgba(250, 248, 241, 0.76) 0%, rgba(250, 248, 241, 0.5) 58%, #faf8f1 100%),
       url('/images/mango-orchard-chicken-yard.png');
     background-position: 54% center;
   }
