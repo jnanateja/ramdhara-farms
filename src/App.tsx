@@ -36,8 +36,8 @@ function App() {
         <section id="home" className="hero-section">
           <div className="hero-copy">
             <p className="eyebrow"><span /> A little closer to nature</p>
-            <h1>Good things<br />begin with<br /><em>good roots.</em></h1>
-            <p className="hero-description">Welcome to RamDhara Farms. A little corner of India where we celebrate the land, care for our animals, and cherish the simple goodness of farm life.</p>
+            <h1>RamDhara<br /><em>Farms.</em></h1>
+            <p className="hero-description">An Indian organic livestock farm rooted in animal care, natural farming practices, and a deep respect for the land.</p>
             <a className="button" href="#offerings">Explore our farm <span>↗</span></a>
             <div className="hero-note"><NatureIcon /><span>Indian roots.<br /><strong>Heartfelt care.</strong></span></div>
           </div>
