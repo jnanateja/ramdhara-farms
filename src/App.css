@@ -43,7 +43,7 @@
 }
 
 .hero-description {
-  color: #a85423;
+  color: #24552e;
   font-size: 15px;
   font-weight: 700;
 }
@@ -59,11 +59,11 @@
 }
 
 .hero-note {
-  color: #2f4f31;
+  color: #5f6b5b;
 }
 
 .hero-note strong {
-  color: #1e4628;
+  color: #173f24;
 }
 
 /* Resolve the palette to green across the site. */
@@ -87,7 +87,23 @@ nav a:hover,
 
 .offering:nth-child(2) svg,
 .sun-badge svg {
-  color: #24552e;
+  color: #6f8450;
+}
+
+.hero-note svg,
+.values-strip svg,
+.card-top svg,
+.approach-symbol svg,
+.contact-note svg {
+  color: #6f8450;
+}
+
+.story-copy p,
+.section-heading > p,
+.offering p,
+.contact > div > p:not(.eyebrow),
+footer {
+  color: #5f6b5b;
 }
 
 @media(max-width:900px) {
