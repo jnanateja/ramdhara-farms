@@ -122,7 +122,14 @@ footer {
 }
 
 .button {
+  border-radius: 999px;
   box-shadow: 0 12px 24px rgba(37, 77, 52, 0.16);
+  padding: 16px 26px;
+}
+
+.nav-cta {
+  border-radius: 999px;
+  padding: 13px 22px;
 }
 
 .button span,
