@@ -66,6 +66,30 @@
   color: #1e4628;
 }
 
+/* Resolve the palette to green across the site. */
+.eyebrow,
+em,
+.values-strip i,
+.approach em,
+.approach .eyebrow,
+.hero-description {
+  color: #24552e;
+}
+
+.eyebrow > span {
+  background: #24552e;
+}
+
+nav a:hover,
+.text-link:hover {
+  color: #123d1c;
+}
+
+.offering:nth-child(2) svg,
+.sun-badge svg {
+  color: #24552e;
+}
+
 @media(max-width:900px) {
   .hero-section {
     min-height: calc(100vh - 110px);
